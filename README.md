@@ -15,7 +15,7 @@ A lightweight and modular logging system for C++ projects. This logger supports 
 ## Example Usage
 
 ```cpp
-#include "Logger.h"  // Replace with your actual header
+#include "logger.h"  // Replace with your actual header
 
 Logger logger("log.txt"); // Create a logger with a log file path
 
