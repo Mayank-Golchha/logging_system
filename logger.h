@@ -49,12 +49,12 @@ class Logger{
         }
 
         int warning_log(std::string message){
-            //information log
+            //warning log
             return log(message,LOG_TYPE::LOGGER_WARNING);
         }
 
         int error_log(std::string message){
-            //information log
+            //error log
             return log(message,LOG_TYPE::LOGGER_ERROR);
         }
 
